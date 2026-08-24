@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --ink: #16233F;
+    --ink: #893925;
     --paper: #F3F5F8;
     --card: #FFFFFF;
     --accent: #C89B3C;
@@ -186,7 +186,7 @@
 </nav>
 
 <main>
-  <div class="eyebrow">Protected by StudentMiddleware</div>
+  <div class="eyebrow"></div>
   <h1>Student Information</h1>
 
   <?php
@@ -208,7 +208,6 @@
       </div>
     </div>
     <div class="id-number">ID No. <?= htmlspecialchars($student['student_id']) ?></div>
-    <div class="id-barcode"></div>
   </div>
 
   <div class="detail-list">
@@ -259,7 +258,7 @@
   <a class="back" href="<?= site_url('student') ?>">&larr; Back to Home</a>
 </main>
 
-<footer>Student Information Page &mdash; built with LavaLust</footer>
+
 
 </body>
 </html>

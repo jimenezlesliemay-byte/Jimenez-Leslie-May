@@ -19,15 +19,15 @@ class StudentController extends Controller
     public function profile()
     {
         $student = [
-            'student_id' => 'MCC2024-01634',
-            'name'       => 'Rhendel G. Agosto',
+            'student_id' => 'MCC2024-015332',
+            'name'       => 'Leslie May S. Jimenez',
             'course'     => 'BS Information Technology',
             'year'       => '3rd Year',
             'section'    => 'F6',
-            'email'      => 'a@example.com',
+            'email'      => 'lesliejimenez@example.com',
             'address'    => 'Calapan City, Philippines',
             'contact'    => '0900-000-0000',
-            'hobbies'    => 'yes',
+            'hobbies'    => 'Reading, Traveling, Photography',
         ];
 
         $data = [

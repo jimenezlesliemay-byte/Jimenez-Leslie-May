@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --ink: #16233F;
+    --ink: #895a25;
     --paper: #F3F5F8;
     --card: #FFFFFF;
     --accent: #C89B3C;
@@ -112,7 +112,7 @@
 <body>
 
 <nav class="nav">
-  <a class="brand" href="<?= site_url('student') ?>">Student Portal</a>
+  <a class="brand" href="<?= site_url('student') ?>">Leslie May S. Jimenez - Student Portal</a>
   <div class="nav-links">
     <a class="active" href="<?= site_url('student') ?>">Home</a>
     <a href="<?= site_url('student/profile') ?>">Student Profile</a>
@@ -125,12 +125,12 @@
     <?php unset($_SESSION['student_notice']); ?>
   <?php endif; ?>
 
-  <div class="eyebrow">LavaLust &middot; Routing / Controller / View / Middleware</div>
+ 
   <h1>Welcome to the Student Portal</h1>
-  <a class="btn" href="<?= site_url('student/profile') ?>">View My Student Profile &rarr;</a>
+  <div class="eyebrow"><center><a class="btn" href="<?= site_url('student/profile') ?>">My Profile &rarr;</a></center></div>
+  
 </main>
 
-<footer>Student Information Page &mdash; built with LavaLust</footer>
 
 </body>
 </html>
