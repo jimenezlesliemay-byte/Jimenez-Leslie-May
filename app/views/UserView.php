@@ -34,7 +34,7 @@
             border-radius: 20px;
 
             box-shadow:
-                0 0 15px #00eaff,
+               0 0 15px #00eaff,
                 0 0 35px rgba(0, 238, 255, 0.5);
         }
 
