@@ -29,7 +29,7 @@
         <div class="msg error"><?= $_SESSION['error']; unset($_SESSION['error']); ?></div>
     <?php endif; ?>
 
-    <a class="btn add" href="<?= base_url('dbcrud/create'); ?>">+ Add Record</a>
+    <a class="btn add" href="<?= base_url('users/create'); ?>">+ Add Record</a>
 
     <table>
         <thead>
@@ -41,8 +41,8 @@
                     <td><?= $record['id']; ?></td>
                     <td><?= $record['username']; ?></td>
                     <td>
-                        <a class="btn edit" href="<?= base_url('dbcrud/edit/'.$record['id']); ?>">Edit</a>
-                        <a class="btn del" href="<?= base_url('dbcrud/delete/'.$record['id']); ?>"
+                        <a class="btn edit" href="<?= base_url('users/edit/'.$record['id']); ?>">Edit</a>
+                        <a class="btn del" href="<?= base_url('users/delete/'.$record['id']); ?>"
                            onclick="return confirm('Sigurado ka bang i-delete ito?');">Delete</a>
                     </td>
                 </tr>
