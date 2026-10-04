@@ -3,7 +3,7 @@
 class AuthModel extends Model {
     protected $table = 'users';
     protected $primary_key = 'id';
-    protected $fillable = ['username', 'password'];
+    protected $fillable = ['firstname', 'lastname', 'email', 'username', 'password', 'role'];
     protected $guarded = ['id'];
 
     public function __construct()
